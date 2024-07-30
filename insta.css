@@ -1,36 +1,37 @@
 *{box-sizing: border-box;}
+
 body{
     background:black;
     display: flex;
 }
 
-.caja{
-    width: 500px;
-    height: 700px;
+.container{
+    width: 31.25rem;
+    height: 43.75rem;
     margin: auto;
     background: white;
 }
 
-.up{
+.top-left{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0.625rem;
 
 }
 
 .logos{
-    height: 30px;
-    width: 30px;
+    height: 1.875rem;
+    width: 1.875rem;
 }
 .html5{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.3125rem;
     
 }
 
-.x{
+.heading-section{
     margin: 0%;
 }
 
@@ -42,9 +43,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .text{
-    padding: 10px;
+    padding: 0.625rem;
 }
